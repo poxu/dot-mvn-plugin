@@ -25,6 +25,9 @@ public class DotMvnProjectComponent implements ProjectComponent {
         VirtualFileManager.getInstance().addVirtualFileListener(new DotMvnChangeListener(project));
         @SystemIndependent
         final String basePath = project.getBasePath();
+        if (basePath == null) {
+            log.info("couldn't find project baseDir");
+        }
         updateMavenSettings(basePath);
     }
 
