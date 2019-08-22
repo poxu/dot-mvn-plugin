@@ -29,8 +29,9 @@ intellij {
 intellij {
     version '2019.2'
 }
+
 patchPluginXml {
-    changeNotes """
-      Support .mvn/jvm.config
+    changeNotes """ 
+      Support .mvn/jvm.config. Copy it's content to Runner Vm Options and Inporter Vm Options
     """
 }
