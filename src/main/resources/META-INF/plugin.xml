@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>poxu.plugin.dot-mvn-idea-plugin</id>
-    <name>Dot Mvn Intellij Idea</name>
+    <name>Dot Mvn support for Intellij Idea</name>
     <vendor email="poxvuibr@gmail.com" url="https://github.com/poxu/dot-mvn-plugin">poxu</vendor>
 
     <description><![CDATA[
@@ -9,9 +9,7 @@
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
-    <!-- uncomment to enable plugin in all products
     <depends>com.intellij.modules.lang</depends>
-    -->
     <depends>org.jetbrains.idea.maven</depends>
 
     <extensions defaultExtensionNs="com.intellij">
