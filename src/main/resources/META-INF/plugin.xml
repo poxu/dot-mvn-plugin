@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>poxu.plugin.dot-mvn-idea-plugin</id>
-    <name>Dot Mvn support for Intellij Idea</name>
+    <name>Dot Mvn support for Idea</name>
     <vendor email="poxvuibr@gmail.com" url="https://github.com/poxu/dot-mvn-plugin">poxu</vendor>
 
     <description><![CDATA[
